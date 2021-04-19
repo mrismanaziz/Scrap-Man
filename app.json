@@ -1,0 +1,82 @@
+{
+  "name": "MyTelegramOrgRoBot",
+  "description": "get your APP ID and API HASH inside Telegram",
+  "keywords": [
+    "telegram",
+    "best",
+    "app",
+    "scrapper",
+    "3"
+  ],
+  "repository": "https://github.com/SpEcHiDe/MyTelegramOrgRoBot",
+  "success_url": "https://telegram.dog/SpEcHlDe",
+  "website": "https://github.com/SpEcHiDe/MyTelegramOrgRoBot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your bot token, as a string."
+    },
+    "URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "https://example.com/"
+    },
+    "APP_TITLE": {
+      "description": "specify a custom app title",
+      "required": false
+    },
+    "APP_SHORT_NAME": {
+      "description": "specify a custom alphamumeric shortname (5-32 characters)",
+      "required": false
+    },
+    "APP_URL": {
+      "description": "specify a custom app URL",
+      "required": false
+    },
+    "APP_DESCRIPTION": {
+      "description": "specify a custom app description",
+      "required": false
+    },
+    "FTEXT": {
+      "description": "the footer text that will be seen in the bot message, after the final edit",
+      "required": false
+    },
+    "START_TEXT": {
+      "description": "the start text of the Telegram bot",
+      "required": false
+    },
+    "AFTER_RECVD_CODE_TEXT": {
+      "description": "the message that should be displayed before receiving the code from the user",
+      "required": false
+    },
+    "BEFORE_SUCC_LOGIN": {
+      "description": "a temporary message that will be displayed after receiving the code, and before the validations",
+      "required": false
+    },
+    "ERRED_PAGE": {
+      "description": "a string which will **never** occur, but still exists?",
+      "required": false
+    },
+    "CANCELLED_MESG": {
+      "description": "a message that should be shown on /cancel",
+      "required": false
+    },
+    "IN_VALID_CODE_PVDED": {
+      "description": "a string which will **never** occur, but still exists?",
+      "required": false
+    },
+    "IN_VALID_PHNO_PVDED": {
+      "description": "a message that will be shown if `get_phno_imn_ges` logic, breaks",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-20"
+}
