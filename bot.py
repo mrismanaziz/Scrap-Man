@@ -115,7 +115,7 @@ def input_tg_code(update, context):
         del GLOBAL_USERS_DICTIONARY[user.id]
     # reply "processing" progress to user
     # we will use this message to edit the status as required, later
-    aes_mesg_i = update.message.reply_text(Config.BEFORE_SUCC_LOGIN)
+    aes_mesg_i = update.message.reply_text(Config.BEFORE_SUCC_LOGIN, parse_mode=ParseMode.HTML)
     #
     provided_code = extract_code_imn_ges(update.message)
     if provided_code is None:
@@ -181,7 +181,7 @@ def cancel(update, context):
     """ ConversationHandler /cancel state """
     # user = update.message.from_user
     # LOGGER.info("User %s canceled the conversation.", user.first_name)
-    update.message.reply_text(Config.CANCELLED_MESG)
+    update.message.reply_text(Config.CANCELLED_MESG, parse_mode=ParseMode.HTML)
     return ConversationHandler.END
 
 
