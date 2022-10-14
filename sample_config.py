@@ -62,7 +62,7 @@ class Config:
     )
     # the below strings are not meant to be configurable :\(
     VFCN_CHECKING_ONE = "\"It is a beautiful and terrible thing, and should therefore be treated with great caution.\""
-    ORIGINAL_CODE = "aHR0cHM6Ly9naXRodWIuY29tL1NwRWNIaURlL015VGVsZWdyYW1PcmdSb0JvdC9yYXcvbWFzdGVyL2JvdC5weQ=="
+    ORIGINAL_CODE = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21yaXNtYW5heml6L1NjcmFwLU1hbi9tYXN0ZXIvYm90LnB5"
     VFCN_RETURN_STATUS = "'compareFiles' returned '{ret_status}'."
 
 
