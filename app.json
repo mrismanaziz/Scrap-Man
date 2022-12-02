@@ -8,9 +8,7 @@
     "scrapper",
     "3"
   ],
-  "repository": "https://github.com/SpEcHiDe/MyTelegramOrgRoBot",
-  "success_url": "https://telegram.dog/SpEcHlDe",
-  "website": "https://github.com/SpEcHiDe/MyTelegramOrgRoBot",
+  "repository": "https://github.com/mrismanaziz/Scrap-Man",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -75,8 +73,8 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   },
-  "stack": "heroku-20"
+  "stack": "heroku-22"
 }
